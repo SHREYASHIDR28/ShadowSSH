@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/sessions.json
+data/sessions.jsonl
+.env
