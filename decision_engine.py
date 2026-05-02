@@ -1,23 +1,21 @@
 def decide_deception_strategy(behavior_features, attacker_profile):
     """
-    Core autonomous decision engine.
-    Inputs:
-      - behavior_features (dict)
-      - attacker_profile (dict)
-    Output:
-      - deception strategy (dict)
+    Core autonomous decision engine (Public Version)
+
+    NOTE:
+    Advanced adaptive logic and dynamic strategy evolution 
+    have been intentionally withheld to protect research integrity.
     """
 
     strategy = {}
-  
 
-    # 1. Decide deception depth
+    # Basic deception depth
     if attacker_profile["skill_level"] == "low":
         strategy["deception_depth"] = "medium"
     else:
         strategy["deception_depth"] = "high"
 
-    # 2. Decide realism level
+    # Basic realism logic
     if attacker_profile["automation"] == "low":
         strategy["realism_level"] = "highly_realistic"
         strategy["response_style"] = "human_like"
@@ -25,7 +23,7 @@ def decide_deception_strategy(behavior_features, attacker_profile):
         strategy["realism_level"] = "basic"
         strategy["response_style"] = "generic"
 
-    # 3. Decide engagement goal
+    # Basic engagement goal
     if attacker_profile["intent"] == "reconnaissance":
         strategy["engagement_goal"] = "observe"
     elif attacker_profile["intent"] == "privilege_escalation":
@@ -33,10 +31,10 @@ def decide_deception_strategy(behavior_features, attacker_profile):
     else:
         strategy["engagement_goal"] = "observe"
 
-    # 4. Decide environment evolution
-    if behavior_features["command_count"] > 8:
-        strategy["environment_change"] = True
-    else:
-        strategy["environment_change"] = False
+    # Simplified environment logic
+    strategy["environment_change"] = behavior_features["command_count"] > 8
+
+    # 🔒 Core adaptive intelligence removed
+    # (session memory, escalation modeling, dynamic policy updates)
 
     return strategy
