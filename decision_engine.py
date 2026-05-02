@@ -1,3 +1,10 @@
+# ShadowSSH
+# Author: Shreyashi Deb Roy
+# NOTE: Core logic partially withheld to protect intellectual property
+
+
+
+
 def decide_deception_strategy(behavior_features, attacker_profile):
     """
     Core autonomous decision engine (Public Version)
