@@ -1,3 +1,9 @@
+# ShadowSSH
+# Author: Shreyashi Deb Roy
+# NOTE: Core logic partially withheld to protect intellectual property
+
+
+
 def generate_fake_response(command, deception_strategy):
     """
     GenAI Execution Layer (Public Version)
@@ -19,7 +25,7 @@ Command: {command}
 Mode: {realism}
 """
 
-    # 🔒 Using mock instead of real GenAI
+    # Using mock instead of real GenAI
     return mock_llm_response(command, realism)
 
 
