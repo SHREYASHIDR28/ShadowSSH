@@ -1,4 +1,4 @@
-# Autonomous Cyber Deception Engine (ACDE)
+# ShadowSSH — A Real-Time AI System That Engages and Deceives Hackers
 
 An autonomous, behavior-aware cyber deception system that dynamically adapts its responses to attackers using real-time behavioral profiling and controlled generative execution.
 
@@ -23,5 +23,3 @@ SSH Interaction → Behavior Observation → Attacker Profiling → Decision Eng
 Core system implemented and validated.  
 ML-based profiling and evaluation modules are planned enhancements.
 
-## Disclaimer
-This project is intended for academic and research purposes only.
